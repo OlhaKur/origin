@@ -1,0 +1,135 @@
+html {
+  max-width: 960px;
+}
+
+:root {
+  background: white;
+  color: black;
+}
+h1 {
+  background-color: blue;
+}
+.green1 {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+.box > p {
+  background: red;
+}
+.box > div {
+  background: green;
+}
+.green {
+  color: white;
+  background-color: green;
+}
+.red > li {
+  background: red;
+}
+.header-button + span {
+  background-color: red;
+}
+.susid ~ p {
+  background-color: blue;
+  color: white;
+}
+.salo,
+#bread {
+  background-color: yellow;
+}
+
+/* 2 */
+.first-task > ul > :first-child {
+  background-color: red;
+  color: white;
+}
+
+.second-task > ul:first-of-type > li:first-child {
+  color: yellow;
+}
+
+.third-task > :last-of-type > :first-child {
+  background: yellow;
+}
+
+.four-task > :last-of-type > :last-child {
+  background-color: yellow;
+}
+
+.five-task > ul:last-child > li:last-of-type {
+  color: white;
+  background-color: blue;
+}
+
+.only-child-task > :only-child {
+  color: red;
+}
+
+.seven-task > p:first-of-type {
+  background: red;
+}
+
+.eight-task > p:last-of-type {
+  background: red;
+}
+
+.nine-task > .text-wrapper > p:only-of-type {
+  background-color: yellow;
+}
+/* 3 */
+a[href] {
+  color: white;
+  background-color: red;
+}
+
+.lesson-three-task-two > [value] {
+  color: yellow;
+}
+
+.lesson-three-task-three > [value='3'] {
+  background-color: red;
+}
+
+.lesson-three-task-four > [class~='primary'] {
+  background-color: blue;
+}
+
+.lesson-three-task-five > [class|='secondary'] {
+  background-color: red;
+}
+
+.lesson-three-task-six > ul > [class^='b'] {
+  background-color: white;
+  color: green;
+}
+
+.lesson-three-task-seven > ul > [class*='on'] {
+  background-color: white;
+  color: green;
+}
+
+.lesson-three-task-eight > ul > li > [class$='s'] {
+  background-color: red;
+}
+
+.lesson-three-task-nine > ::first-letter {
+  color: red;
+}
+
+.lesson-three-task-ten > ::first-line {
+  background-color: yellow;
+}
+
+.lesson-three-task-eleven > ::placeholder {
+  background-color: red;
+}
+
+.lesson-three-task-twelve li::before {
+  content: '➤';
+}
+
+.lesson-three-task-thirteen li::after {
+  content: '➤';
+}
